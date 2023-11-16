@@ -1,0 +1,6 @@
+npm init -y    création projet node.js bch tesna3li fichier Json
+
+ mba3d code . bch n7el el vs code
+
+idha ken bch te5dem  "odm"  li howa orienté document ne5dmou bel mongoose
+w idha ken bch te5dem bel "ORM" li howa relationelle tejem te5dem bel "prisma" wala "sequelize"
