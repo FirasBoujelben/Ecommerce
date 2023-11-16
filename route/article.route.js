@@ -16,7 +16,7 @@ router.get("/",async(req,res)=> {
 // chercher un article
 router.get('/:articleId',async(req, res)=>{
     try {
-    const art = await Article.findById(req.params.articleId);
+    const art = await Article.findById(req.params.articleId).populate("scategorieID");
     res.status(200).json(art);
 } catch (error) {
     res.status(404).json({ message: error.message });
